@@ -1,0 +1,42 @@
+{
+  "feed": [
+    {
+      "_id": "1",
+      "userId": "user_1",
+      "status": "This is an example status. Isn't it great?!",
+      "publishedAt": "2019-09-12T15:52:01.169Z",
+      "parentStatusId": null
+    },
+    {
+      "_id": "t-1",
+      "userId": "user_2",
+      "status": "This is an example response, which is really just a status with a parent. Isn't it great?!",
+      "publishedAt": "2019-09-12T15:52:01.169Z",
+      "parentStatusId": "1"
+    }
+  ],
+  "users": [
+    {
+      "_id": "user_1",
+      "avatarUri": "https://0.academia-photos.com/47190003/12458911/22095843/s200_leul.woldegabriel.png",
+      "name": "Leul Tewolde",
+      "username": "@leultewolde",
+      "verified": true
+    },
+    {
+      "_id": "user_2",
+      "avatarUri": "https://picsum.photos/id/238/200",
+      "name": "Sennay Tewolde",
+      "username": "@sennaytewolde",
+      "verified": false
+    },
+    {
+      "_id": "user_2",
+      "avatarUri": "https://picsum.photos/id/238/200",
+      "name": "Amanuel Tewolde",
+      "username": "@amanueltewolde",
+      "verified": false
+    }
+  ],
+  "likes": []
+}
