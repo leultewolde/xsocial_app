@@ -5,11 +5,11 @@ import { View, StatusBar } from "react-native";
 
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import Feed from "./views/Feed";
-import Thread from "./views/Thread";
-import NewStatus from "./views/NewStatus";
+import Feed from "./src/views/Feed";
+import Thread from "./src/views/Thread";
+import NewStatus from "./src/views/NewStatus";
 
-import { Button } from "./components/Button";
+import { Button } from "./src/components/Button";
 
 const AppStack = createStackNavigator();
 const ModalStack = createStackNavigator();
