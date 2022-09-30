@@ -49,9 +49,9 @@ const styles = StyleSheet.create({
     color: '#4f5153',
   },
   textVerifed: {
-    fontSize: 12,
+    width: 16,
+    height: 16,
     marginLeft: 5,
-    color: '#ffffff',
     // backgroundColor: '#0062ff',
     paddingHorizontal: 5,
     paddingVertical: 2,
@@ -99,7 +99,7 @@ export const Status = ({
         <View style={styles.header}>
           <View style={styles.headerVer}>
             <Text style={styles.textName}>{user.name}</Text>
-            {user.verified && <Text style={styles.textVerifed}>&#10004;</Text>}
+            {user.verified && <Image style={styles.textVerifed} source={require('../assets/icons/verified.png')}/>}
           </View>
           <Text style={styles.textUsername}>{user.username}</Text>
         </View>

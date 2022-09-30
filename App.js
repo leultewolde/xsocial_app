@@ -12,7 +12,7 @@ import NewStatus from "./src/views/NewStatus";
 import { Button } from "./src/components/Button";
 
 const AppStack = createStackNavigator();
-const ModalStack = createStackNavigator();
+const ModalStack = createStackNavigator();      
 
 const AppNavigator = () => (
   <AppStack.Navigator>
